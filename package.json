@@ -55,7 +55,7 @@
     "url": "git+https://github.com/adambrgmn/rawly.git"
   },
   "scripts": {
-    "build": "npm run build"
+    "build": "npm run build",
     "prepare": "npm run build",
     "prepublish": "gulp prepublish",
     "test": "tape './test/**/*.spec.js' -r ./test/setup | tap-spec",
